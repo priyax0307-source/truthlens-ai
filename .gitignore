@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Python Virtual Environments and Bytecode
+__pycache__/
+*/__pycache__/
+*.pyc
+venv/
+*/venv/
+env/
+*/env/
+.env.local
+.venv/
+
+# Secrets and local environment files (CRITICAL: Never commit secrets to GitHub)
+.env
+*/.env
+*.env
+!*.env.example
+
+# Production builds
+dist/
+*/dist/
+build/
+*/build/
+
+# IDE and OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log

@@ -1,0 +1,11 @@
+{
+  "name": "truthlens-ai-workspace",
+  "version": "1.0.0",
+  "description": "TruthLens AI - Misinformation Detection & Credibility Analysis Platform",
+  "scripts": {
+    "dev:server": "cd server && npm run dev",
+    "dev:client": "cd client && npm run dev",
+    "dev:ai": "cd ai-service && python main.py",
+    "build:client": "cd client && npm run build"
+  }
+}
